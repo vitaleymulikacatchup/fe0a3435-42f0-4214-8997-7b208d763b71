@@ -57,7 +57,7 @@ export default function LandingPage() {
               href: "about"
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763560810307-45jnuz10.jpg"
+          videoSrc: "https://cdn.pixabay.com/video/2025/07/06/289855_large.mp4"
           imageAlt="SONY professional presentation camera"
           frameStyle="card"
         />
