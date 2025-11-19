@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
-import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import TextAbout from '@/components/sections/about/TextAbout';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
@@ -42,7 +42,7 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboardCarousel
+        <HeroBillboard
           title="Professional Presentation Cameras"
           description="Capture every detail with SONY's advanced presentation camera technology, designed for professionals who demand excellence in every frame."
           tag="SONY Professional"
@@ -57,28 +57,9 @@ export default function LandingPage() {
               href: "about"
             }
           ]}
-          mediaItems={[
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763560810307-45jnuz10.jpg",
-              imageAlt: "SONY professional presentation camera"
-            },
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763560813071-uckcrqy6.jpg",
-              imageAlt: "4K video recording capability"
-            },
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763560814231-edzzc9su.jpg",
-              imageAlt: "Advanced stabilization technology"
-            },
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763560815309-2kjd6yiy.jpg",
-              imageAlt: "Precision autofocus system"
-            },
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763560816405-2yza1uw3.jpg",
-              imageAlt: "SONY Alpha camera series"
-            }
-          ]}
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763560810307-45jnuz10.jpg"
+          imageAlt="SONY professional presentation camera"
+          frameStyle="card"
         />
       </div>
 
